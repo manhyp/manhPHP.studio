@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Bài 2</title>
+<body>
+<h1 style="color: purple">A Simple Form</h1>
+<h2 style="color: #FF4E5D">Form Fundamental</h2>
+<fieldset>
+<legend> Customer Info</legend>
+	<p>
+		Name:
+		<input type="text" id="fullname" name="name" placeholder="Enter your name" size="50" autofocus>
+	</p>
+	<p>
+		Telephone:
+		<input type="text" placeholder="Pattern: 1-234-567-8910" autofocus> 
+	</p>
+	<p>
+		E-mail address:
+		<input type="text" placeholder="Enter yorn email address" size="50">
+	</p>
+	<p>
+	Gender:
+	<input type="radio" name="gender" id="Male" value="Male">
+	<label for="Male">Male</label>
+	<input type="radio" name="gender" id="Female" value="Female">
+	<label for="Female">Female</label>
+	</p>
+	<p>
+	Hobbies:
+	<input type="checkbox" name="gender" id="Basketball" value="Basketball">
+	<label for="Basketball">Basketball</label>
+	<input type="checkbox" name="gender" id="Footabll" value="Footabll">
+	<label for="Footabll">Footabll</label>
+	<input type="checkbox" name="gender" id="Badminton" value="Badminton">
+	<label for="Badminton">Badminton</label>
+	</p>
+</fieldset>
+<fieldset>	
+<legend>Books</legend>
+	<p>
+		Name:
+		<input type="text">
+		Quantity (Maximum 5):</label>
+		<input type="number" min="1" max="5">
+	</p>
+<button type="Submit">Submit</button>
+<button type="Reset">Reset</button>
+	
